@@ -1,0 +1,33 @@
+LEITOR DE CANHOTOS DE NF
+========================
+
+Para que serve: encontrar, no meio de um monte de fotos/PDFs, os canhotos
+das NFs que você precisa.
+
+COMO USAR
+1. Abra o programa: dê dois cliques em "LeitorCanhotos.exe".
+2. Clique em "Adicionar pasta..." e escolha a pasta com as fotos.
+   Pode adicionar quantas pastas quiser (as subpastas também são lidas).
+3. No Excel, selecione as linhas da sua lista, copie (Ctrl+C) e cole (Ctrl+V)
+   no campo 2. Confira em qual coluna está o número da NF (padrão: 4).
+   Também pode colar só os números das NFs, um por linha.
+4. Clique em "Buscar canhotos" e aguarde (cerca de 5 segundos por foto).
+   Na próxima vez, as fotos já lidas não são lidas de novo: fica bem mais rápido.
+
+RESULTADO
+Ao terminar, abre sozinha uma pasta "Canhotos <data>" na Área de Trabalho com:
+ - resultado.xlsx
+     Verde    = ENCONTRADO: achou o número da NF no canhoto
+     Amarelo  = CONFERIR: o número aparece no canhoto, mas fora do campo "Nº"
+     Laranja  = POSSÍVEL: foto da mesma carga, mas o número estava borrado
+                ou cortado. Abra a foto e procure a NF com os próprios olhos.
+     Vermelho = NÃO ENCONTRADO
+ - canhotos_encontrados\  -> as fotos achadas, já renomeadas com o número da NF
+                              (ex.: NF_544203.jpg)
+
+SE UMA NF DER "NÃO ENCONTRADO"
+A foto pode estar borrada, cortada ou com o número coberto. Veja a aba
+"Todas as imagens" da planilha para saber o que o programa conseguiu ler.
+
+Não precisa de internet. Não apague nenhum arquivo desta pasta; para
+instalar em outro computador, copie a pasta inteira.

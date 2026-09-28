@@ -1,0 +1,17 @@
+# Dados reais (clientes, CNPJs, fotos com assinaturas) nunca vão para o repositório
+lista.txt
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.pdf
+*.xlsx
+cache_ocr.json
+resultado/
+
+# Build
+build/
+dist/
+*.spec
+*.zip
+__pycache__/
